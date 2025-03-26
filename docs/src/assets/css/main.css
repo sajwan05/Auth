@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #668880;
+    color: #f4f4f4;
+    font-family : "Open Sans", "HelveticaNeue-Light", "HelveticaNeue Light", "Helvetica Neue",  Helvetica, Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    
+    flex-direction: column;
+    border-radius: 5px;
+    /* align-items: center; */
+}
+
+input {
+    background: background: rgb(173, 161, 161);;
+}
+
+input:last-child {
+    flex-basis: auto;
+    cursor: pointer;
+}
+
